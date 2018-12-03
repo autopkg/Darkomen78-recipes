@@ -13,7 +13,7 @@
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/Onyx</string>
 		<key>NAME</key>
-		<string>Onyx14</string>
+		<string>Onyx</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -30,6 +30,10 @@
 			<string>Titanium</string>
 			<key>display_name</key>
 			<string>Onyx for macOS 10.14</string>
+			<key>minimum_os_version</key>
+			<string>10.14.0</string>
+			<key>maximum_os_version</key>
+			<string>10.14.99</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
