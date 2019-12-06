@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads the latest Onyx client for macOS 10.15 and installs it into a Munki Repo.</string>
+	<key>Identifier</key>
+	<string>com.github.darkomen78.munki.Onyx1015</string>
+	<key>Input</key>
+	<dict>
+		<key>APP_DESTINATION</key>
+		<string>/Applications/</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/Onyx</string>
+		<key>NAME</key>
+		<string>Onyx</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>Utilities</string>
+			<key>description</key>
+			<string>OnyX is a multifunctional utility for macOS. It allows you to verify the startup disk and the structure of its System files, to run miscellaneous tasks of system maintenance, to configure the hidden parameters of the Finder, Dock, Spotlight, and of some of Apple's own applications, to delete caches, to remove a certain number of files and folders that may become cumbersome, and more.
+&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;
+&amp;lt;img src="https://www.titanium-software.fr/en/images/icons/onyx1015.png"&amp;gt;</string>
+			<key>developer</key>
+			<string>Titanium</string>
+			<key>display_name</key>
+			<string>Onyx for macOS 10.15</string>
+			<key>minimum_os_version</key>
+			<string>10.15.0</string>
+			<key>maximum_os_version</key>
+			<string>10.15.99</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.0.1</string>
+	<key>ParentRecipe</key>
+	<string>com.github.darkomen78.download.Onyx1015</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>pkg_path</key>
+				<string>%pathname%</string>
+				<key>repo_subdirectory</key>
+				<string>%MUNKI_REPO_SUBDIR%</string>
+			</dict>
+			<key>Comment</key>
+			<string>This processor imports the final pkg into the location specified in the INPUT string at top of recipe.</string>
+			<key>Processor</key>
+			<string>MunkiImporter</string>
+		</dict>
+	</array>
+</dict>
+</plist>
