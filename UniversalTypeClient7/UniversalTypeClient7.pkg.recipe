@@ -16,7 +16,7 @@
     <key>MinimumVersion</key>
     <string>0.2.8</string>
     <key>ParentRecipe</key>
-    <string>com.github.jessepeterson.download.UniversalTypeClient7</string>
+    <string>com.github.darkomen78.download.UniversalTypeClient7</string>
     <key>Process</key>
     <array>
         <dict>
