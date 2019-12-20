@@ -97,19 +97,6 @@ Store all of your fonts in a centralized, server-based font manager to ensure co
 		<dict>
 			<key>Arguments</key>
 			<dict>
-				<key>source_path</key>
-				<string>%found_resource%</string>
-				<key>destination_path</key>
-				<string>%RECIPE_CACHE_DIR%/unpack/universalTypeClient.pkg/Scripts/postinstall</string>
-				<key>overwrite</key>
-				<true/>
-			</dict>
-			<key>Processor</key>
-			<string>Copier</string>
-		</dict>
-		<dict>
-			<key>Arguments</key>
-			<dict>
 				<key>destination_pkg</key>
 				<string>%RECIPE_CACHE_DIR%/%NAME%.pkg</string>
 				<key>source_flatpkg_dir</key>
