@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Re-packages, and imports Extensis Universal Type Client 7 into Munki repo.</string>
 	<key>Identifier</key>
-	<string>com.github.darkomen78.munki.UniversalTypeClient6</string>
+	<string>com.github.darkomen78.munki.UniversalTypeClient7</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_CATEGORY</key>
