@@ -23,9 +23,7 @@
 			<key>category</key>
 			<string>Utilities</string>
 			<key>description</key>
-			<string>OnyX is a multifunctional utility for macOS. It allows you to verify the startup disk and the structure of its System files, to run miscellaneous tasks of system maintenance, to configure the hidden parameters of the Finder, Dock, Spotlight, and of some of Apple's own applications, to delete caches, to remove a certain number of files and folders that may become cumbersome, and more.
-&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;
-&amp;lt;img src="https://www.titanium-software.fr/images/icons/onyx12.png"&amp;gt;</string>
+			<string>OnyX is a multifunctional utility for macOS. It allows you to verify the startup disk and the structure of its System files, to run miscellaneous tasks of system maintenance, to configure the hidden parameters of the Finder, Dock, Spotlight, and of some of Apple's own applications, to delete caches, to remove a certain number of files and folders that may become cumbersome, and more.</string>
 			<key>developer</key>
 			<string>Titanium</string>
 			<key>display_name</key>
