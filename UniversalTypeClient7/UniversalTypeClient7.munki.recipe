@@ -195,7 +195,7 @@ Store all of your fonts in a centralized, server-based font manager to ensure co
 			<key>Arguments</key>
 			<dict>
 				<key>url</key>
-				<string>https://cs.extensis.com/fm_uninstall/utc/uninstall-utc.zip</string>
+				<string>https://cs.extensis.com/font/uts/uninstall-utc.zip</string>
 				<key>filename</key>
 				<string>uninstall-utc.zip</string>
 			</dict>
