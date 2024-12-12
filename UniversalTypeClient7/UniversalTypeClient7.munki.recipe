@@ -195,9 +195,9 @@ Store all of your fonts in a centralized, server-based font manager to ensure co
 			<key>Arguments</key>
 			<dict>
 				<key>url</key>
-				<string>https://s3.amazonaws.com/cs.us.extensis.com/fm_uninstall/utc/utc-removal-tool.zip</string>
+				<string>https://cs.extensis.com/font/uts/uninstall-utc.zip</string>
 				<key>filename</key>
-				<string>utc-removal-tool.zip</string>
+				<string>uninstall-utc.zip</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
@@ -206,7 +206,7 @@ Store all of your fonts in a centralized, server-based font manager to ensure co
 			<key>Arguments</key>
 			<dict>
 				<key>archive_path</key>
-				<string>%RECIPE_CACHE_DIR%/downloads/utc-removal-tool.zip</string>
+				<string>%RECIPE_CACHE_DIR%/downloads/uninstall-utc.zip</string>
 				<key>destination_path</key>
 				<string>%RECIPE_CACHE_DIR%/%NAME%-removal-tool</string>
 				<key>purge_destination</key>
