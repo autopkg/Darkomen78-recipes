@@ -7,4 +7,4 @@ XnView : http://www.xnview.com/
 
 Onyx : http://www.titanium-software.fr/en/onyx.html
 
-Universal Type Client : https://www.extensis.com/fr-fr/universal-type-server
+Affinity by Canva : https://www.affinity.studio/
